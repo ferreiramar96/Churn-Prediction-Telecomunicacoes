@@ -2,6 +2,7 @@ import streamlit as st
 import requests
 import os
 
+
 # Configuração da página
 st.set_page_config(page_title="Predição de Churn - Telecom", page_icon="📊", layout="wide")
 
@@ -32,7 +33,7 @@ mapping = {
 }
 
 # URL da API do nosso modelo
-api_url = os.getenv("API_URL", "http://localhost:8000/predict")
+api_url = os.getenv("API_URL")
 
 # Cabeçalho Principal com Cotação no canto superior direito
 header_col1, header_col2 = st.columns([4, 1])
