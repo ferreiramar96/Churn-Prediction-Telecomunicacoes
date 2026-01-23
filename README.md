@@ -24,7 +24,7 @@ A inteligência do projeto está exposta através de uma API robusta desenvolvid
 ## 🖥️ Front-end
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ferreiramar96/Churn-Prediction-Telecomunicacoes/main/notebook/Churn_Prediction_Capa.jpeg" alt="imagem maneira relacionada ao projeto"height=470px >
+  <img src="https://raw.githubusercontent.com/ferreiramar96/Churn-Prediction-Telecomunicacoes/refs/heads/deploy/notebook/front-end.png" alt="imagem maneira relacionada ao projeto"height=470px >
 </p>
 
 Para facilitar a interação com o modelo, foi desenvolvida uma interface dinâmica utilizando **Streamlit**.
