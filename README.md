@@ -17,6 +17,27 @@ Ao longo de todo o projeto, cada célula de código está explicada para uma fá
 
 Neste projeto foi utilizado: Storytelling, Estatística, Machine Learning e a linguagem de programação Python.
 
+## 🛠️ API do Modelo
+A inteligência do projeto está exposta através de uma API robusta desenvolvida com **FastAPI**. Esta API é responsável por receber os dados brutos dos clientes, aplicar o pré-processamento e as transformações necessárias em tempo real, e consultar o modelo de Machine Learning (carregado via `joblib`) para retornar a probabilidade de churn.
+**Tecnologias utilizadas:** Python, FastAPI, Pandas e Scikit-learn.
+
+## 🖥️ Front-end
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ferreiramar96/Churn-Prediction-Telecomunicacoes/main/notebook/Churn_Prediction_Capa.jpeg" alt="imagem maneira relacionada ao projeto"height=470px >
+</p>
+
+Para facilitar a interação com o modelo, foi desenvolvida uma interface dinâmica utilizando **Streamlit**.
+- **Coleta de Dados:** O front-end organiza a entrada de informações demográficas, serviços contratados e custos mensais.
+- **Conversão de Câmbio:** Como o modelo foi treinado com faturamento em dólares (USD), a aplicação integra a **AwesomeAPI** para buscar a cotação atual do câmbio. Isso permite que o usuário insira valores em Reais (R$), que são convertidos automaticamente antes do processamento pela IA, garantindo a integridade da predição.
+
+## 🚀 Deploy
+O projeto foi containerizado e publicado para garantir escalabilidade e facilidade de acesso:
+- **Docker:** Utilização de contêineres para isolar a API e o Front-end, assegurando consistência entre os ambientes de desenvolvimento e produção.
+- **Render:** Deploy realizado na plataforma Render, utilizando o fluxo de integração contínua para hospedar a solução completa na nuvem.
+
+**Link da aplicação:** [Predição de Churn](https://churn-prediction-telecomunicacoes-vds8.onrender.com/)
+
 
 [Link para o projeto completo](https://bit.ly/443L5J5)
 
@@ -25,3 +46,4 @@ Neste projeto foi utilizado: Storytelling, Estatística, Machine Learning e a li
 * [LinkedIn](https://www.linkedin.com/in/felipeferreiratids/)
 * [Instagram](https://www.instagram.com/ferreiramar96/)
 * [Portfólio Completo](https://github.com/ferreiramar96/Data_Science)
+
